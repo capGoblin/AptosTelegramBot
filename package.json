@@ -1,0 +1,24 @@
+{
+  "name": "aptoschatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.25.1",
+    "@langchain/anthropic": "^0.2.14",
+    "@langchain/mistralai": "^0.0.28",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "langchain": "^0.2.15",
+    "moralis": "^2.27.1",
+    "openai": "^4.0.0"
+  }
+}
